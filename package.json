@@ -1,0 +1,27 @@
+{
+  "name": "festival-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y npm",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nueljs/Festival-de-M-sica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Manuel Cervera Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nueljs/Festival-de-M-sica/issues"
+  },
+  "homepage": "https://github.com/Nueljs/Festival-de-M-sica#readme",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
