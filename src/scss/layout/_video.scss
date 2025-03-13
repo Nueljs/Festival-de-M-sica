@@ -1,0 +1,32 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.video {
+    position: relative; //el padre siempre tiene que ser relativo
+    .overlay{
+        position: absolute;
+        background: linear-gradient(
+            270deg,
+            rgba(v.$morado, 60%),
+            rgba(darken(v.$morado, 20%), 90%) /*darken() es una funcion de sass*/
+        );
+        inset: 0; //esto es como ponerle botton 0 top 0 right 0 y left 0 para que ocupe toda la pantalla
+        // left: 0;
+        // bottom: 0;//estas dos caracteristicas hace que se muestre la pantalla como cordenadas y pueda colocarlo donde quiera
+    }
+
+    video {
+
+    }
+}
+
+.contenido-video{
+
+    h2{
+
+    }
+    p{
+        
+    }
+}

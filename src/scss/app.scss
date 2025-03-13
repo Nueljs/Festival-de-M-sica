@@ -1,9 +1,3 @@
-@use 'base/variables' as v; //as * hace que no  tengas que escribir nombre de variable antes de la variable
-
-body {
-    font-family: v.$fuente_principal;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: v.$negro;
-}
+@forward 'base';
+@forward 'layout';
 
